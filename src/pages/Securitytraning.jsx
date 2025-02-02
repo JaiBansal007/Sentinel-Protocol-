@@ -2,7 +2,7 @@ import React from "react";
 
 const SecurityTrainingPage = () => {
   return (
-    <div className="min-h-screen text-white p-6 bg-gradient-to-t from-transparent to-black flex items-center">
+    <div className="min-h-screen text-white p-6  flex items-center">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         {/* Left Side - Text Content */}
         <div className="text-left">
