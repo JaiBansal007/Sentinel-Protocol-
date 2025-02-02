@@ -4,8 +4,8 @@ import './App.css'
 import { ParticleBg } from './Components/ParticleBg.jsx'
 import SecurityTrainingPage from './pages/Securitytraning.jsx'
 import BlockchainRiskAssessment from './pages/BlockChainRisk.jsx'
+import Roadmap from './Components/Roadmap.jsx'
 function App() {
-
   return (
     <>
 
@@ -13,6 +13,7 @@ function App() {
       <Galaxy />
       <SecurityTrainingPage />
       <BlockchainRiskAssessment />
+      <Roadmap />
     </div>
 
 </>
@@ -20,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
