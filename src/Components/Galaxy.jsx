@@ -50,7 +50,7 @@ const Cover=()=> {
 
 export const Galaxy=()=>{
     return (
-        <div className='h-[100vh] w-[100vw] absolute -z-10 '>
+        <div className='h-[100vh] w-[100vw] -z-10 top-0 fixed'>
               <Canvas
                     style={{ background: 'black' }}
                     camera={{ position: [50, 50, 50], fov:10 }}
