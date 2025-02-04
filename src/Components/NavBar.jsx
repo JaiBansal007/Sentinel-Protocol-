@@ -3,7 +3,7 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <nav className="space-grotesk sticky top-0 z-10 w-full flex justify-between items-center backdrop-blur-lg shadow-md px-6 py-2">
+    <nav className="space-grotesk sticky top-0 z-50 w-full flex justify-between items-center backdrop-blur-lg shadow-md px-6 py-2">
   {/* Logo Section */}
   <div className="flex items-center gap-3  rounded-lg px-4 py-2">
     <img src="images/logo.png" alt="Sentinel Logo" className="h-12 w-auto" />

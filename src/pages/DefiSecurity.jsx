@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function DefiSecurityPage() {
   return (
-    <div className="min-h-screen text-white p-8 transform -translate--20">
+    <div className="min-h-screen text-white p-8 transform -translate--20 ">
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -21,7 +21,7 @@ export default function DefiSecurityPage() {
           transition={{ delay: 0.2 }}
           className="text-lg leading-relaxed"
         >
-          We are revolutionizing DeFi security with cutting-edge, AI-powered solutions designed to combat phishing threats and safeguard your crypto assets. Our advanced technology identifies and eliminates risks in real time, ensuring your sensitive data remains protected and your team stays informed. With 24/7 monitoring, instant alerts, and proactive defense mechanisms, we empower you to navigate the blockchain landscape with confidence and peace of mind.
+          We are revolutionizing DeFi security with cutting-edge, AI-powered solutions designed to combat phishing threats and safeguard your ensuring your sensitive data remains protected and your team stays informed. With 24/7 monitoring, instant alerts, and proactive defense mechanisms, we empower you to navigate the blockchain landscape with confidence and peace of mind.
         </motion.p>
       </div>
       
@@ -30,13 +30,11 @@ export default function DefiSecurityPage() {
         <p className=" leading-relaxed">
           The rise of decentralized finance (DeFi) has brought unprecedented opportunities—and risks. Phishing attacks targeting blockchain users are on the rise, threatening financial losses and data breaches. At <span className="text-green-400 font-bold">[Your Company Name]</span>, we’re redefining DeFi security with AI-powered solutions that detect, prevent, and neutralize threats before they strike.
         </p>
-        <p className="text-gray-300 mt-4">
-          Our mission is to empower individuals and businesses with the tools and knowledge to stay ahead of cybercriminals. With our innovative approach, you can focus on growing your crypto portfolio while we handle the security.
-        </p>
+
       </div>
       
       <div className="text-center mt-8">
-        <button className="bg-green-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-600 transition">
+        <button className="bg-green-500 text-black font-bold px-6 py-3 rounded-lg shadow-md hover:bg-green-600 transition">
           Learn More
         </button>
       </div>
